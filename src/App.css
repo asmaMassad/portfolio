@@ -1,0 +1,148 @@
+body {
+  padding-left: 0;
+  margin-left: 0;
+  font-family: "Roboto Mono", monospace;
+  color: #aaa;
+  background: linear-gradient(to right, rgb(0, 1, 12), rgb(12, 0, 19));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+.navbar-custom {
+  background-color: rgba(6, 0, 12, 0.9);
+}
+
+.headerbtn {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  width: 100;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.headerbtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+
+  transition: 0.2s;
+}
+
+.headerbtn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: 0.2s;
+}
+.headerbtn:focus {
+  outline: none;
+}
+.headerbtn:hover span {
+  padding-right: 15px;
+  color: #ff6a00;
+}
+
+.headerbtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.particles {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.social-icon {
+  color: #aaa;
+}
+/**Side Anim styles*/
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pointer {
+  cursor: pointer;
+}
+.darkgray {
+  color: #666;
+}
+.orange {
+  color: #ff6a00;
+}
+.light-orange {
+  color: #ffae74;
+}
+.scroll-btn {
+  color: #aaa;
+  background: none;
+  border: none;
+}
+.scroll-btn:active {
+  color: #ff9041;
+  border: none;
+}
+.scroll-btn:focus {
+  outline: none;
+}
+.sub-header {
+  position: fixed;
+}
+.social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #aaa;
+  color: #555;
+  line-height: 1;
+  padding: 7px 0;
+  border-radius: 50%;
+  text-align: center;
+  width: 32px;
+  height: 32px;
+  transition: 0.3s;
+  margin-left: 4px;
+}
+.social-links a:hover {
+  background: #ff6a00;
+}
+.hide-img {
+  display: none;
+}
+
+.remove-focus:focus {
+  outline: none;
+}
+.maxwidth {
+  width: 100vmax;
+  left: 0;
+}

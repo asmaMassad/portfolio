@@ -1,0 +1,90 @@
+{
+  "skills": [
+    {
+      "title": "Programming Languages",
+      "skills": ["Javascript", "C#", "Python", "Actionscript3", "PHP"]
+    },
+    {
+      "title": "Web Technologies",
+      "skills": [
+        "React.js",
+        "Express.js",
+        "Node.js",
+        "PostgreSQL",
+        "MongoDB",
+        "Reducx",
+        "jQuery",
+        "Postman",
+        "Bootstrap",
+        "wordpress",
+        "CSS3",
+        "SASS"
+      ]
+    },
+    {
+      "title": "Mobile Apps & Games",
+      "skills": [
+        "React Native",
+        "Unity",
+        "Starling Framework",
+        "Box2D",
+        "Nape Physics",
+        "Away3D"
+      ]
+    },
+    {
+      "title": "Multimedia",
+      "skills": [
+        "3D Modeling",
+        "2D Animation",
+        "Interface Design",
+        "Sound Editing",
+        "Video Editing",
+        "Image Editing"
+      ]
+    },
+    {
+      "title": "Multimedia",
+      "skills": [
+        "3D Modeling",
+        "2D Animation",
+        "Interface Design",
+        "Sound Editing",
+        "Video Editing",
+        "Image Editing"
+      ]
+    },
+    {
+      "title": "Machine Learning & Data Science",
+      "skills": [
+        "Scikit-learn",
+        "TensorFlow",
+        "Matplotlib",
+        "Tableau",
+        "Pandas"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Freelancer, 1/5/2016",
+      "title": "Mobile Apps / Full Stack Web Development",
+      "description": "Developing mobile apps, websites and games, designing brochures and logos."
+    },
+    {
+      "company": "Anoud Games, 1/4/2015 – 1/5/2016",
+      "title": "Game Developer",
+      "description": "Responsible for programming 2D and 3D games targeting different desktop and mobile platforms, using game engines like Starling Framework and Unity, and programming languages like actionscript3 and C#."
+    },
+    {
+      "company": "Super Apple, 1/11/ 2011 – 31/3/2015",
+      "title": "Programmer, Graphic Designer",
+      "description": "Responsible for programming e-learning applications, and designing interfaces for these apps."
+    },
+    {
+      "company": "Neiraba Studios, 1/7/2009 – 30/9/2011",
+      "title": "Programmer, Multimedia Engineer, Project Manager",
+      "description": "Responsible for programming interactive applications, creating 3D models, multimedia related tasks (Sound Editing, Video Editing, drawing illustrations), and creating 2D animations."
+    }
+  ]
+}
